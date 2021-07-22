@@ -1,0 +1,400 @@
+@font-face {
+	font-family: "RocGrotesk Bold";
+	src: url("fonts/Roc-Grotesk-Bold.otf");
+}
+
+@font-face {
+	font-family: "RocGrotesk Medium";
+	src: url("fonts/Roc\ Grotesk\ Medium.otf");
+}
+
+@font-face {
+	font-family: "RocGrotesk Light";
+	src: url("fonts/Roc\ Grotesk\ Light.otf");
+}
+
+@font-face {
+	font-family: "RocGrotesk ExtraBold";
+	src: url("fonts/Roc\ Grotesk\ ExtraBold.otf");
+}
+
+@font-face {
+	font-family: "RocGrotesk Heavy";
+	src: url("fonts/Roc\ Grotesk\ Heavy.otf");
+}
+
+@font-face {
+	font-family: "Neue Hass Regular";
+	src: url("fonts/Neue\ Haas\ Grotesk\ Text\ W02\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Neue Hass Medium";
+	src: url("fonts/Neue\ Haas\ Grotesk\ Text\ W02\ Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Neue Hass Bold";
+	src: url("fonts/Neue\ Haas\ Grotesk\ Display\ W02\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Neue Hass Light";
+	src: url("fonts/Neue\ Haas\ Grotesk\ Display\ W02\ Lt.ttf") format("truetype");
+}
+
+.animate__animated {
+	--animate-duration: 2s;
+}
+
+body {
+	font-family: "Neue Hass Regular";
+}
+
+a {
+	text-decoration: none;
+}
+.section-one {
+	height: 100vh;
+	background: #0b0f38;
+	color: white;
+}
+
+.section-one .logo-text {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 24px;
+	line-height: 150%;
+	color: #c9d5ff;
+}
+
+.section-one .header {
+	padding: 2rem;
+}
+
+.section-one .row {
+	align-items: baseline;
+}
+
+.section-one .talk-to-us {
+	font-style: normal;
+	font-weight: normal;
+	font-family: "RocGrotesk Medium";
+	font-size: 24px;
+	line-height: 100%;
+	text-align: right;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.section-one .talk-to-us span {
+	border-bottom: 1px solid;
+	padding-bottom: 3px;
+}
+
+.section-one .talk-to-us a {
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+.section-one .body {
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.section-one .body h2 {
+	font-size: 50px;
+	font-family: "RocGrotesk Bold";
+}
+
+.section-one .body .techies-style {
+	background: #e64d42;
+	font-family: "RocGrotesk Bold";
+	width: 20rem;
+	margin: auto;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #fafafa;
+	transform: rotate(-2.29deg) !important;
+	margin-top: 1.5rem;
+}
+
+.section-one .body p {
+	font-size: 20px;
+	line-height: 170%;
+	text-align: center;
+	color: #c9d5ff;
+	width: 48%;
+	margin: auto;
+	margin-top: 2rem;
+	font-weight: normal;
+}
+
+.section-one .body .top-persons {
+	width: 90%;
+}
+
+.section-two .mission-about {
+	background: #ffffff;
+	box-shadow: 0px 2px 20px rgba(183, 181, 181, 0.25);
+	border-radius: 10px;
+	position: relative;
+	top: -2rem;
+	padding: 2.5rem 4rem;
+}
+
+.section-two .mission-about h3 {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 100%;
+	color: #161616;
+	font-family: "RocGrotesk Bold";
+}
+
+.section-two .mission-about span {
+	border-bottom: 6px solid #ffeab5;
+	padding-bottom: 3px;
+}
+
+.section-two .mission-about .mission-text {
+	width: 87%;
+	margin: auto;
+	margin-top: 1.2rem;
+	font-size: 20px;
+	line-height: 160%;
+	letter-spacing: 0.012em;
+	color: #2e2e2e;
+	font-family: "Neue Hass Regular";
+}
+
+.section-three,
+.section-four {
+	margin-top: 9rem;
+}
+
+.section-three h2,
+.section-four h2 {
+	text-align: center;
+	font-family: "RocGrotesk Medium";
+	font-size: 48px;
+	line-height: 100%;
+	color: #272c62;
+	margin-bottom: 4rem;
+}
+
+.section-three h3 {
+	font-size: 30px;
+	line-height: 100%;
+	text-align: center;
+	color: #272c62;
+	font-family: "RocGrotesk Medium";
+}
+
+.section-three p {
+	font-size: 19px;
+	line-height: 170%;
+	color: #434770;
+	width: 75%;
+	text-align: center;
+	font-family: "Neue Hass Light";
+	margin: auto;
+	margin-top: 1rem;
+}
+
+.section-four h3 {
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 26px;
+	line-height: 100%;
+	color: #272c62;
+	font-family: "RocGrotesk Light";
+	font-weight: 700;
+}
+
+.section-four h3.ticc {
+	margin-top: 3rem;
+}
+
+.section-four p {
+	font-size: 19px;
+	line-height: 160%;
+	text-align: center;
+	font-family: "Neue Hass Light";
+	color: #434770;
+	width: 70%;
+	margin: auto;
+}
+
+.section-four p.image {
+	text-align: center;
+}
+
+.section-four .appr {
+	padding-bottom: 4rem;
+}
+
+.section-four .col-4 {
+	margin-bottom: 4rem;
+}
+
+.section-five {
+	margin-top: -9rem;
+}
+
+.section-five .sub-section {
+	background: #ffffff;
+	box-shadow: 0px 2px 20px rgba(183, 181, 181, 0.25);
+	border-radius: 10px;
+	position: relative;
+	bottom: -15rem;
+	padding: 2.5rem 4rem;
+}
+
+.section-five .sub-section h3 {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 100%;
+	color: #161616;
+	font-family: "RocGrotesk Bold";
+}
+
+.section-five .sub-section h3 span {
+	border-bottom: 6px solid #ffeab5;
+	padding-bottom: 3px;
+}
+
+.section-five .sub-section .mission-text {
+	width: 87%;
+	margin: auto;
+	margin-top: 1.2rem;
+	font-size: 20px;
+	line-height: 160%;
+	letter-spacing: 0.012em;
+	color: #2e2e2e;
+	font-family: "Neue Hass Regular";
+	font-weight: 200;
+}
+
+.section-five .sub-section .mission-text span {
+	background: #ff909075;
+	color: #ff2c2c;
+}
+
+.section-five .sub-section .mission-text span:hover {
+	cursor: pointer;
+}
+
+.section-five .footer {
+	background: #0b0f38;
+	height: 50vh;
+}
+
+.section-five .footer img {
+	width: 100%;
+	position: sticky;
+	top: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.section-one {
+		background: white;
+		height: auto;
+		color: white;
+		margin-bottom: 5rem;
+	}
+	.section-one .body img.top-persons {
+		display: none;
+	}
+
+	.section-one .logo-text,
+	.section-one .talk-to-us {
+		font-size: 18px;
+		color: #0b0f38;
+	}
+
+	.section-one .body h2 {
+		font-size: 40px;
+		padding: 0 9px;
+		margin-top: -1.5rem;
+		color: #0b0f38;
+	}
+
+	.section-one .body .techies-style {
+		width: 16rem;
+	}
+
+	.section-one .body p {
+		width: 85%;
+		font-size: 18px;
+		color: #0b0f38;
+	}
+
+	.section-two .mission-about {
+		background: #0b0f38;
+		padding: 2rem 1.5rem;
+	}
+
+	.section-two .mission-about h3 {
+		color: white;
+		font-size: 26px;
+	}
+
+	.section-two .mission-about .mission-text {
+		color: white;
+		font-size: 17px;
+	}
+
+	.section-four,
+	.section-three {
+		margin-top: 4rem;
+	}
+
+	.section-three h2,
+	.section-four h2 {
+		font-size: 35px;
+		margin-bottom: 2.5rem;
+	}
+
+	.section-three h3 {
+		font-size: 26px;
+		text-align: left;
+	}
+
+	.section-three .appr {
+		padding: 0.5rem 2.5rem;
+		padding-bottom: 2rem;
+	}
+
+	.section-three p {
+		width: 100%;
+		text-align: left;
+	}
+
+	.section-four .appr {
+		padding: 1rem 2rem;
+	}
+
+	.section-four .appr .ticc {
+		margin-top: 2rem;
+	}
+
+	.section-four .appr h3 {
+		/* text-align: left; */
+		margin-bottom: 1rem;
+	}
+
+	.section-four .appr p {
+		/* text-align: left; */
+		width: 100%;
+	}
+
+	.section-five {
+		margin-top: -15rem;
+	}
+
+	.section-five .sub-section {
+		padding: 2rem 1.5rem;
+	}
+
+	.footer img {
+		display: none;
+	}
+}
